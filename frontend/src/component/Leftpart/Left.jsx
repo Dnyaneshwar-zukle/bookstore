@@ -1,12 +1,16 @@
-import React from 'react'
-import Search from './Search'
+import React from "react";
+import Search from "./Search";
+import User from "./User";
+import Logout from "./Logout";
 
 const Left = () => {
   return (
-    <div className='w-[30%] bg-black text-gray-300'>
+    <div className="w-[30%] bg-black text-gray-300">
       <Search />
+      <User />
+      <Logout />
     </div>
-  )
-}
+  );
+};
 
-export default Left
+export default Left;
